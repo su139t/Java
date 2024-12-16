@@ -8,7 +8,7 @@ public class PrimeNumber {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         if (n == 2){
-            System.out.println("n is a prime number");
+            System.out.println(n + " is a prime number");
         }
         else{
            for(int i = 2 ; i < n-1 ; i++){
@@ -17,10 +17,10 @@ public class PrimeNumber {
             }
            }
            if(IsPrime == true){
-            System.out.println("n is a prime number");
+            System.out.println(n + " is a prime number");
            }
            else{
-            System.out.println("n is not a prime number");
+            System.out.println(n + " is not a prime number");
            }
         }
     }
